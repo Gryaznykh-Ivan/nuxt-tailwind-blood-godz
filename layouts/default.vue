@@ -1,5 +1,12 @@
 <template>
   <div class="w-full h-screen bg-mainBlack pt-24">
-    <Nuxt />
+    <div class="flex flex-col h-full">
+      <Header />
+      <div class="flex-1">
+        <Nuxt />
+      </div>
+      <Footer />
+    </div>
+    <SideBar />
   </div>
 </template>

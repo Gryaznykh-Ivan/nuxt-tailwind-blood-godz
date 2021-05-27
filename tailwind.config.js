@@ -13,10 +13,17 @@ module.exports = {
     colors: {
       ...colors,
       mainBlack: "#141414",
+      secondaryBlack: "#0B0B0B",
       gold: "#FFD260",
-      pink: "#FF395D"
+      pink: "#FF395D",
+      mainBlue: "#44BCFF",
+      lightBlue: "#A4E7FF",
     },
-    extend: {},
+    extend: {
+      borderWidth: {
+        '1px': '1px'
+      },
+    },
   },
   variants: {
     extend: {},

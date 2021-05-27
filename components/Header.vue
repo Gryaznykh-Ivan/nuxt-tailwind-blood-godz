@@ -2,7 +2,7 @@
   <div class="container m-auto flex items-center">
     <Logo />
     <div class="pl-32 flex h-5 items-center space-x-8 text-white">
-      <nuxt-link class="" active-class="box-border border-pink border-b-2 text-pink border-opacity-20" to="/">Главная</nuxt-link>
+      <nuxt-link exact class="" active-class="box-border border-pink border-b-2 text-pink border-opacity-20" to="/">Главная</nuxt-link>
       <nuxt-link class="" active-class="box-border border-pink border-b-2 text-pink border-opacity-20" to="/top">Топ игроков</nuxt-link>
       <nuxt-link class="" active-class="box-border border-pink border-b-2 text-pink border-opacity-20" to="/lobby">Лобби</nuxt-link>
       <nuxt-link class="flex items-center text-gold font-medium" to="/premium">

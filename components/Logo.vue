@@ -1,4 +1,5 @@
 <template>
+<router-link to="/">
   <svg
     width="162"
     height="15"
@@ -19,4 +20,5 @@
       fill="#F5F5F5"
     />
   </svg>
+  </router-link>
 </template>
