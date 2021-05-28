@@ -1,6 +1,6 @@
 <template>
     <div class="transition-all duration-700">
-        <div :class="`absolute z-50 top-0 right-0 ${ isOpened ? 'w-80' : 'w-20' } bg-black h-screen flex flex-col py-16 px-4 bg-opacity-80 text-white`">
+        <div :class="`fixed z-50 top-0 right-0 ${ isOpened ? 'w-80' : 'w-20' } bg-black h-screen flex flex-col py-16 px-4 bg-opacity-80 text-white`">
             <div :class="`flex flex-col flex-1 items-center ${ isAuth && 'hidden' }`">
                 <img class="mb-2" src="~/assets/images/icons/persone.png" alt="">
                 <div class="">Register</div>
@@ -8,7 +8,7 @@
             </div>
             <div :class="`flex-1 space-y-4 scrollbar-hidden overflow-x-hidden ${ !isAuth && 'hidden' }`">
                 <div class="flex">
-                    <img class="rounded-xl" src="~/assets/images/avatar.png" />
+                    <img class="rounded-xl" src="~/assets/images/design/avatar.png" />
                     <div :class="`ml-5 flex-1 ${ !isOpened && 'hidden' }`">
                         <div class="text-xl mb-3">NickName</div>
                         <div class="flex justify-between">
@@ -99,21 +99,21 @@
                 </div>
                 <div class="space-y-4">
                     <div class="flex space-x-5">
-                        <img src="~/assets/images/avatar.png" alt="">
+                        <img src="~/assets/images/design/avatar.png" alt="">
                         <div class="">
                             <div class="font-medium">James</div>
                             <div class="">Playing</div>
                         </div>
                     </div>
                     <div class="flex space-x-5">
-                        <img src="~/assets/images/avatar.png" alt="">
+                        <img src="~/assets/images/design/avatar.png" alt="">
                         <div class="">
                             <div class="font-medium">Nabe</div>
                             <div class="">Playing</div>
                         </div>
                     </div>
                     <div class="flex space-x-5">
-                        <img src="~/assets/images/avatar.png" alt="">
+                        <img src="~/assets/images/design/avatar.png" alt="">
                         <div class="">
                             <div class="font-medium">Ivan</div>
                             <div class="text-green-600">Online</div>

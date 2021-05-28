@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-secondaryBlack">
+    <div class="bg-secondaryBlack z-40">
         <div class="container m-auto grid grid-cols-5 pt-4 pb-4 text-white">
             <div class="flex flex-col-reverse">
                 <a class="">Blood Godz reborn 2021</a>
