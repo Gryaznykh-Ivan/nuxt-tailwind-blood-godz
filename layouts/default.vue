@@ -1,12 +1,10 @@
 <template>
-  <div class="w-full h-full bg-mainBlack pt-24">
-    <div class="flex flex-col h-full">
+    <div class="relative flex h-full flex-col bg-mainBlack">
       <Header />
-      <div class="flex-1">
+      <div class="flex flex-col flex-auto">
         <Nuxt />
       </div>
       <Footer />
+      <SideBar />
     </div>
-    <SideBar />
-  </div>
 </template>

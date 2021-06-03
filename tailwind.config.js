@@ -10,6 +10,15 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    screens: {
+      '2xl': {'min': '1279px'},
+      'xl': {'min': '1023px'},
+      'lg': {'min': '767px'},
+      'md': {'min': '639px'}
+    },
+    fontFamily: {
+      sans: ['Montserrat']
+    },
     colors: {
       ...colors,
       mainBlack: "#141414",

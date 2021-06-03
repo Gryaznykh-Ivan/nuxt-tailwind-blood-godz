@@ -25,7 +25,7 @@
                 </div>
                 <div class="">
                     <div :class="`flex ${ isOpened ? 'space-x-4' : 'flex-col items-center' }`">
-                        <div class="">1 vs 1</div>
+                        <div class="w-11 text-center">1 vs 1</div>
                         <img class="w-8 h-8" src="~/assets/images/levels/1.png" alt="" />
                         <div :class="`flex flex-col flex-1 ${ !isOpened && 'hidden' }`">
                             <div class="flex justify-between text-mainBlue text-sm">
@@ -39,7 +39,7 @@
                         </div>
                     </div>
                     <div :class="`flex ${ isOpened ? 'space-x-4' : 'flex-col items-center' }`">
-                        <div class="">2 vs 2</div>
+                        <div class="w-11 text-center">2 vs 2</div>
                         <img class="w-8 h-8" src="~/assets/images/levels/5.png" alt="" />
                         <div :class="`flex flex-col flex-1 ${ !isOpened && 'hidden' }`">
                             <div class="flex justify-between text-mainBlue text-sm">
@@ -53,7 +53,7 @@
                         </div>
                     </div>
                     <div :class="`flex ${ isOpened ? 'space-x-4' : 'flex-col items-center' }`">
-                        <div class="">3 vs 3</div>
+                        <div class="w-11 text-center">3 vs 3</div>
                         <img class="w-8 h-8" src="~/assets/images/levels/10.png" alt="" />
                         <div :class="`flex flex-col flex-1 ${ !isOpened && 'hidden' }`">
                             <div class="flex justify-between text-mainBlue text-sm">
@@ -67,7 +67,7 @@
                         </div>
                     </div>
                     <div :class="`flex ${ isOpened ? 'space-x-4' : 'flex-col items-center' }`">
-                        <div class="">5 vs 5</div>
+                        <div class="w-11 text-center">5 vs 5</div>
                         <img class="w-8 h-8" src="~/assets/images/levels/6.png" alt="" />
                         <div :class="`flex flex-col flex-1 ${ !isOpened && 'hidden' }`">
                             <div class="flex justify-between text-mainBlue text-sm">
